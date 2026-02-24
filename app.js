@@ -1,6 +1,6 @@
 const API_URL = "https://parametrizacao-fiscal-g69j.onrender.com/api/submit";
 import { CBS_IBS_CST_MAP, CLASS_TRIB_MAP, RT_MAP } 
-from "./backend/shared/reformaTributariaMap.js";
+from "./reformaTributariaMap.js";
 
 let step = 0;
 const totalSteps = 6;
@@ -1305,4 +1305,5 @@ function initCustomSelects(scope = document) {
 // Iniciar
 showStep(0);
 initCustomSelects();
+
 
